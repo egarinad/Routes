@@ -1,0 +1,32 @@
+@import "./base";
+
+body {
+    min-height: 100%;
+    overflow: hidden;
+    background-color: black;
+    font-size: 20px;
+}
+
+.container {
+    position: absolute;
+    top: 43%;
+    left: 45%;
+}
+
+.main-menu {
+    font-size: 40px;
+    &__first-elemment {
+        margin-bottom: 10px;
+    }
+
+    &__second-elemment {
+        margin-bottom: 10px;
+    }
+
+    &__third-elemment {
+    }
+}
+
+a {
+    color: blanchedalmond;
+}
