@@ -99,9 +99,8 @@ body {
 }
 
 .container {
-  position: absolute;
-  top: 43%;
-  left: 45%;
+  margin-top: 45vh;
+  text-align: center;
 }
 
 .main-menu {
@@ -117,5 +116,5 @@ body {
 }
 
 a {
-  color: blanchedalmond;
+  color: #1f8de7;
 }

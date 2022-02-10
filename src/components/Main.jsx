@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import "../main.css"
 
 const Main = () => {
@@ -6,13 +7,13 @@ const Main = () => {
         <div className="container">
             <div className="main-menu">
                 <div className="main-menu__first-elemment element">
-                    <a href="/first">First page</a>
+                    <NavLink to="/first">First page</NavLink>
                 </div>
                 <div className="main-menu__second-elemment element">
-                    <a href="/second">Second page</a>
+                    <NavLink to="/second">Second page</NavLink>
                 </div>
                 <div className="main-menu__third-elemment element">
-                    <a href="/third">Third page</a>
+                    <NavLink to="/third">Third page</NavLink>
                 </div>
             </div>
         </div>
